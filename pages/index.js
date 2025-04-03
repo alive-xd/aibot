@@ -1,3 +1,17 @@
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "vercel-build": "next build"
+},
+"dependencies": {
+  "next": "^13.0.0",
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0"
+}
+
+
+
 import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
